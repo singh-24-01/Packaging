@@ -20,4 +20,5 @@ src/*.egg-info/
 doc/build/doctrees/
 doc/build/.doctrees/
 doc/build/environment.pickle
+doc/build/doctrees/
 
