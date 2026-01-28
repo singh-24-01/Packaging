@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+src/*.egg-info/
+
+# Test caches
+.pytest_cache/
+.hypothesis/
+
+# Sphinx build caches (optionnel)
+doc/build/doctrees/
+doc/build/.doctrees/
+
