@@ -1,2 +1,0 @@
-[console_scripts]
-ng20 = ng20_lda.cli.app:app

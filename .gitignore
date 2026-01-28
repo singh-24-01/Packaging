@@ -1,26 +1,23 @@
 # macOS
 .DS_Store
 
-# Python
+# caches
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
+.pytest_cache/
+.hypothesis/
 
-# Virtual env
-.venv/
-
-# Build artifacts
+# build artifacts
 build/
 dist/
 *.egg-info/
 src/*.egg-info/
 
-# Test caches
-.pytest_cache/
-.hypothesis/
+# venv
+.venv/
 
-# Sphinx build caches (optionnel)
+# sphinx cache (on garde le html, mais pas les doctrees)
 doc/build/doctrees/
 doc/build/.doctrees/
+doc/build/environment.pickle
 
