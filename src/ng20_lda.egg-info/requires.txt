@@ -1,0 +1,9 @@
+scikit-learn
+joblib
+numpy
+scipy
+typer
+fastapi
+uvicorn
+pytest
+hypothesis
