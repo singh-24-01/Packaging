@@ -132,16 +132,25 @@ Elle est disponible dans :
 doc/build/html/index.html
 ```
 
-### Structure du projet
+## Structure du projet
 
+```text
 Packaging/
 ├── src/ng20_lda/        # Code source du package
-├── tests/               # Tests unitaires
-├── doc/                 # Documentation Sphinx
-├── README.md
-├── pyproject.toml
-├── setup.cfg
-└── setup.py
+│   ├── cli/             # Commandes CLI (export, train, describe, count-lines, serve)
+│   ├── api.py           # API FastAPI
+│   ├── lda.py           # Entraînement et gestion LDA
+│   ├── ng20.py          # Chargement 20 Newsgroups
+│   ├── lines.py         # Compteur de lignes
+│   └── logging_utils.py
+├── tests/               # Tests unitaires (pytest + hypothesis)
+├── doc/                 # Documentation Sphinx (HTML incluse)
+├── README.md            # Documentation principale
+├── pyproject.toml       # Configuration du projet
+├── setup.cfg            # Configuration setuptools
+└── setup.py             # Script d’installation
+```
+
 
 ## Licence
 
